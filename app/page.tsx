@@ -7,7 +7,6 @@ import ServicesSection from '@/components/ServicesSection';
 import EquipmentSection from '@/components/EquipmentSection';
 import WhyChooseUsSection from '@/components/WhyChooseUsSection';
 import ReviewsSection from '@/components/ReviewsSection';
-import HoursSection from '@/components/HoursSection';
 import FitnessCalculator from '@/components/FitnessCalculator';
 import LocationSection from '@/components/LocationSection';
 import FaqSection from '@/components/FaqSection';
@@ -54,9 +53,6 @@ export default function Home() {
 
         {/* Interactive Baseline Fitness & BMI Tool */}
         <FitnessCalculator onOpenBookModal={handleOpenBookModal} />
-
-        {/* Opening Hours & Real-time Live Status */}
-        <HoursSection onOpenBookModal={() => handleOpenBookModal()} />
 
         {/* Location & Directions */}
         <LocationSection />

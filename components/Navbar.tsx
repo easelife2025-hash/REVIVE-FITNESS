@@ -27,7 +27,6 @@ export default function Navbar({ onOpenBookModal }: NavbarProps) {
     { label: 'Equipment', href: '#equipment' },
     { label: 'Why Revive', href: '#why-us' },
     { label: 'Reviews', href: '#reviews' },
-    { label: 'Hours', href: '#hours' },
     { label: 'Location', href: '#location' },
   ];
 
