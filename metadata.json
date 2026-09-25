@@ -1,0 +1,6 @@
+{
+  "name": "REVIVE FITNESS | Seawoods, Navi Mumbai",
+  "description": "Train Strong. Live Stronger. Premium modern gym in Seawoods West featuring CrossFit, Cycling, Weight Training, Personal Training, and Nutrition Consulting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
